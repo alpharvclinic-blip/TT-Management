@@ -1,0 +1,53 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --forest: #1B3A2D;
+  --forest-mid: #2E5941;
+  --forest-light: #4A8063;
+  --sage: #7BAE96;
+  --sage-light: #B8D4C8;
+  --cream: #F5F0E8;
+  --cream-mid: #EDE7DA;
+  --sand: #D4C9B4;
+  --rust: #C4622D;
+  --rust-light: #E8875A;
+  --amber: #D4943A;
+  --white: #FFFFFF;
+  --text-primary: #1A1A1A;
+  --text-secondary: #4A5568;
+  --text-muted: #718096;
+  --border: #D4C9B4;
+  --border-light: #E8E2D8;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+  --radius: 8px;
+  --radius-lg: 12px;
+}
+
+html, body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--cream);
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
